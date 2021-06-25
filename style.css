@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.models
+{
+    display: none;
+}
+.nav-bar
+{
+    background-color: rgb(218, 144, 94);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn
+{
+    padding: 5px 5px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    transition: all .5s;
+    color: rgb(117, 49, 49);
+}
+.fundo
+{
+    position: fixed;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/fundo-2000certo1.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+.fundoModal
+{
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: ease all 0.8s;
+}
+.modal
+{
+    height: 400px;
+    width: 700px;
+    background-color: lavender;
+    display: flex;
+    border-radius: 10%;
+}
+.campoPizza
+{
+    background-color: lemonchiffon;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campoPizza img
+{
+
+}
+.campoInfoPizza
+{
+    background-color: lightblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bree Serif', serif;
+}
+.campoInfoPizza .i:not(.descPizza)
+{
+    background-color: lightcoral;
+    line-height: 50px;
+    width: auto;
+    margin: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.campoInfoPizza .descPizza
+{
+    background-color: lightcoral;
+    width: auto;
+    margin: 0.5rem 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+.campoInfoPizza .closeModal
+{
+    background-color: lightpink;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.campoInfoPizza .closeModal:hover
+{
+    background-color: rgb(172, 130, 136);
+}
+h1
+{
+    font-size: 55px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.title
+{
+    background-color: transparent;
+    border-radius: 15px;
+    height: 370px;
+    text-align: center;
+}
+.t
+{
+    color: white;
+    margin-top: 150px;
+    font-family: 'Bree Serif', serif;
+}
+
+.pizza-title
+{
+    background-color: crimson;
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.fundop
+{
+    background-color: white;
+}
+.conteudo
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.element
+{
+    background-color: rgb(240, 236, 229);
+    width: auto;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 4px 5px 7px rgb(112, 112, 112);
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.element:hover
+{
+    margin-top: 20px;
+    background-color: rgb(226, 224, 219);
+}
+.description
+{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+.pizza1
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.lanches-title
+{
+    background-color: rgb(220, 127, 20);
+    display: flex;
+    width: 100%;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+}
+.quemsomos-title
+{
+    background-color: rgb(241, 192, 85);
+    display: flex;
+    width: 100%;
+    height: 360px;
+    align-items: center;
+    justify-content: space-around;
+}
+.q2
+{
+    width: 60%;
+    height: 250px;
+}
+.q2 p
+{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.contato
+{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.c1
+{
+    display: flex;
+    flex-direction: column;
+}
+.c1 a
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.c2 p
+{
+    color: white;
+}
+.c1 a, .c2 p
+{
+    font-size: 20px;
+}
+
+/* RESPONSIVE ----------------------*/
+
+@media (max-width: 700px)
+{
+    .conteudo
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .element
+    {
+        background-color: rgb(240, 236, 229);
+        width: auto;
+        height: 45vh;
+    }
+}
+@media (max-width: 550px)
+{
+    .conteudo
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .element
+    {
+        width: auto;
+        height: 45vh;
+        margin: 2rem 5rem;
+    }
+}
