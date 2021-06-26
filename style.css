@@ -164,7 +164,7 @@ h1
 {
     background-color: rgb(240, 236, 229);
     width: auto;
-    height: 250px;
+    height: 260px;
     border-radius: 15px;
     box-shadow: 4px 5px 7px rgb(112, 112, 112);
     margin: 2rem 2rem;
@@ -179,11 +179,16 @@ h1
     margin-top: 20px;
     background-color: rgb(226, 224, 219);
 }
-.description
+.name
 {
     margin-top: 10px;
     font-weight: bold;
     font-family: 'Bree Serif', serif;
+}
+.price
+{
+    font-weight: bold;
+    line-height: 20px;
 }
 .pizza1
 {
@@ -208,6 +213,14 @@ h1
     align-items: center;
     justify-content: space-around;
 }
+.q1
+{
+    background-image: url(img/img\ pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 184px;
+    width: 273px;
+}
 .q2
 {
     width: 60%;
@@ -221,7 +234,7 @@ h1
 .contato
 {
     background-color: black;
-    width: 100%;
+    width: 100vw;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -262,9 +275,36 @@ h1
         width: auto;
         height: 45vh;
     }
+    .quemsomos-title
+    {
+        flex-direction: column;
+        width: 100%;
+        height: 380px;
+        padding: 1rem 0;
+    }
+    .q2
+    {
+        width: calc(100vw - 2rem);
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .q2 p
+    {
+        margin-top: 15px;
+        font-size: 25px;
+    }
 }
 @media (max-width: 550px)
 {
+    .nav-bar a
+    {
+        display: none;
+    }
+    .fundo
+    {
+        background-position: right;
+    }
     .conteudo
     {
         display: grid;
@@ -273,7 +313,12 @@ h1
     .element
     {
         width: auto;
-        height: 45vh;
+        height: auto;
         margin: 2rem 5rem;
+        padding: 1rem;
+    }
+    .contato
+    {
+        flex-direction: column;
     }
 }

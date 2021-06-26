@@ -7,3 +7,10 @@ let pizzaJson = [
     {id:6, name:'Moda da Casa', img:'img/pizza - Cópia.png', price:18.55, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
     {id:7, name:'Chocolate', img:'img/pizza - Cópia.png', price:22.36, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'}
 ];
+
+let lancheJson = [
+    {id:1, name:'Tradicional', img:'img/pizza - Cópia.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
+    {id:2, name:'Queijo +', img:'img/pizza2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
+    {id:3, name:'Thunder', img:'img/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
+    {id:4, name:'Artesanal', img:'img/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'}
+];
