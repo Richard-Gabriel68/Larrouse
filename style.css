@@ -13,6 +13,9 @@ html
 {
     display: none;
 }
+
+/* HEADER -------------------------------*/
+
 .nav-bar
 {
     background-color: rgb(218, 144, 94);
@@ -47,6 +50,8 @@ html
     background-size: cover;
 }
 
+/* MODAL ------------------------------*/
+
 .fundoModal
 {
     background-color: rgba(0, 0, 0, 0.548);
@@ -65,7 +70,6 @@ html
     width: 700px;
     background-color: lavender;
     display: flex;
-    border-radius: 10%;
 }
 .campoPizza
 {
@@ -141,6 +145,9 @@ html
 {
     background-color: rgb(0, 124, 56);
 }
+
+/* PIZZAS -----------------------------*/
+
 h1
 {
     font-size: 55px;
@@ -216,6 +223,9 @@ h1
     margin-top: 20px;
     width: 80%;
 }
+
+/* LANCHES -----------------------------*/
+
 .lanches-title
 {
     background-color: rgb(220, 127, 20);
@@ -225,6 +235,9 @@ h1
     justify-content: center;
     align-items: center;
 }
+
+/* QUEM SOMOS -----------------------------*/
+
 .quemsomos-title
 {
     background-color: rgb(241, 192, 85);
@@ -337,6 +350,13 @@ h1
         height: auto;
         margin: 2rem 5rem;
         padding: 1rem;
+    }
+    .modal
+    {
+        height: 90vh;
+        width: auto;
+        background-color: lavender;
+        flex-direction: column;
     }
     .contato
     {
