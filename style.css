@@ -73,7 +73,7 @@ html
 }
 .campoPizza
 {
-    background-color: lemonchiffon;
+    background-color: rgb(255, 255, 255);
     flex: 1;
     display: flex;
     align-items: center;
@@ -81,11 +81,11 @@ html
 }
 .campoPizza img
 {
-
+    width: 85%;
 }
 .campoInfoPizza
 {
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -93,7 +93,7 @@ html
 }
 .campoInfoPizza .i:not(.descPizza)
 {
-    background-color: lightcoral;
+    background-color: rgb(255, 205, 96);
     line-height: 50px;
     width: auto;
     margin: 0.5rem 1rem;
@@ -103,7 +103,7 @@ html
 }
 .campoInfoPizza .descPizza
 {
-    background-color: lightcoral;
+    background-color: rgb(255, 205, 96);
     width: auto;
     margin: 0.5rem 1rem;
     text-align: center;
@@ -129,7 +129,7 @@ html
 }
 .campoInfoPizza .closeModal:hover
 {
-    background-color: rgb(124, 0, 19);
+    background-color: rgb(196, 1, 30);
 }
 .campoInfoPizza .buy
 {
@@ -268,7 +268,7 @@ h1
 .contato
 {
     background-color: black;
-    width: 100vw;
+    width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-around;
