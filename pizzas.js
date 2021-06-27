@@ -9,8 +9,8 @@ let pizzaJson = [
 ];
 
 let lancheJson = [
-    {id:1, name:'Tradicional', img:'img/pizza - Cópia.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
-    {id:2, name:'Queijo +', img:'img/pizza2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
-    {id:3, name:'Thunder', img:'img/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
-    {id:4, name:'Artesanal', img:'img/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'}
+    {id:1, name:'Tradicional', img:'img/l1.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
+    {id:2, name:'Queijo +', img:'img/l2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
+    {id:3, name:'Thunder', img:'img/l3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'},
+    {id:4, name:'Artesanal', img:'img/l4.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da lanche em mais de uma linha muito legal bem interessante'}
 ];
